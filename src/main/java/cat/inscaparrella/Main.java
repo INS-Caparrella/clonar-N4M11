@@ -17,6 +17,8 @@ public class Main {
             a = scanner.nextInt();
         } catch (Exception e) {
             System.err.println("Error al introduir el nombre!");
+            System.exit(-1);
+
         }
 
         System.out.println("Introdueix un altre nombre: ");
@@ -25,6 +27,7 @@ public class Main {
             b = scanner.nextInt();
         } catch (Exception e) {
             System.err.println("Error al introduir el nombre!");
+            System.exit(-1);
         }
 
         int r = 0;
